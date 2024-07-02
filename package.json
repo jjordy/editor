@@ -1,0 +1,37 @@
+{
+  "name": "@jjordy/editor",
+  "version": "0.0.0",
+  "private": true,
+  "exports": "./src/index.tsx",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch"
+  },
+  "dependencies": {
+    "@editorjs/editorjs": "^2.29.1",
+    "@editorjs/embed": "^2.7.4",
+    "@editorjs/header": "^2.8.1",
+    "@editorjs/image": "^2.9.0",
+    "@editorjs/paragraph": "^2.11.5",
+    "@editorjs/raw": "^2.5.0",
+    "clsx": "^2.1.1",
+    "editorjs-drag-drop": "^1.1.14",
+    "editorjs-undo": "^2.0.28",
+    "lodash-es": "^4.17.21",
+    "nanoid": "^5.0.7",
+    "react-hook-form": "7.52.0"
+  },
+  "devDependencies": {
+    "@types/eslint": "^8.56.10",
+    "@types/lodash-es": "^4.17.12",
+    "@types/node": "^20.14.9",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "eslint": "^9.5.0",
+    "typescript": "^5.5.2"
+  },
+  "peerDependencies": {
+    "react": "18.3.1",
+    "react-dom": "18.3.1"
+  }
+}
